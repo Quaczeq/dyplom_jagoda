@@ -1,18 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
+  font-family: 'Lato', sans-serif;
   background: #2f2f2f;
 }
-p {
-  color: red;
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  text-shadow: black 0 7px 10px;
+  margin-top: -20px;
+}
+
+h2 {
 }
 
 .logo {
-  width: 50vw;
-  height: 35vw;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: auto;
+  height: auto;
+  margin: 0 25vw 0 25vw;
+}
+
+ul {
+  text-align: right;
+  margin: 0.4vw 15vw 0.4vw 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2vw;
+  color: darkgray;
+  list-style-type: none;
+
+  margin: 0 0.2vw 0 0.2vw;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  border-radius: 0.4vw;
+}
+
+.prostokat1 {
+  background: dimgray;
+  width: 25vw;
+  height: 10vw;
+  margin: 2vw 1vw 2vw 20vw;
+  padding: 1vw;
+  border: #b3d4fc 0.2vw solid;
+  border-radius: 1vw;
+}
+
+.prostokat2 {
+  background: dimgray;
+  width: 25vw;
+  height: 5vw;
+  margin: 2vw 20vw 2vw 1vw;
+  padding: 1vw;
+  border: #b3d4fc 0.2vw solid;
+  border-radius: 1vw;
+}
+
+.prostokat3 {
+  background: dimgray;
+  width: 25vw;
+  height: 15vw;
+  margin: 2vw 20vw 2vw 1vw;
+  padding: 1vw;
+  border: #b3d4fc 0.2vw solid;
+  border-radius: 1vw;
+}
+
+.sekcja1 {
+  display: flex;
 }
