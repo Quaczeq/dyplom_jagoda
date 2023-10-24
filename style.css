@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Lato', serif;
+  font-weight: bold;
   background: #2f2f2f;
 }
 
@@ -49,7 +50,7 @@ li {
   width: 25vw;
   height: 10vw;
   margin: 2vw 1vw 2vw 20vw;
-  padding: 1vw;
+  padding: 0.5vw;
   border: #b3d4fc 0.2vw solid;
   border-radius: 1vw;
 }
@@ -59,7 +60,7 @@ li {
   width: 25vw;
   height: 5vw;
   margin: 2vw 20vw 2vw 1vw;
-  padding: 1vw;
+  padding: 0.5vw;
   border: #b3d4fc 0.2vw solid;
   border-radius: 1vw;
 }
@@ -69,7 +70,7 @@ li {
   width: 25vw;
   height: 15vw;
   margin: 2vw 20vw 2vw 1vw;
-  padding: 1vw;
+  padding: 0.5vw;
   border: #b3d4fc 0.2vw solid;
   border-radius: 1vw;
 }
@@ -80,6 +81,12 @@ li {
 
 .tekst_prostokat1 {
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.9vw;
   text-align: center;
+}
+
+.lat14{
+  display:inline-block;
+  font-size: 2.2vw;
+  color: #00a99d
 }
