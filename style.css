@@ -97,6 +97,7 @@ li {
 }
 
 .prostokat3 {
+  display: flex;
   background: dimgray;
   width: 29vw;
   height: 13vw;
@@ -104,6 +105,9 @@ li {
   padding: 2.2vw 3vw 1.4vw 1vw;
   border: #94D8E5 0.2vw solid;
   border-radius: 1vw;
+  color: white;
+  font-size: 1.9vw;
+  line-height: 3.2vw;
 }
 
 .tekst_prostokat {
@@ -116,16 +120,8 @@ li {
   display: flex;
 }
 
-.right{
-  text-align: right;
-  line-height: 1.6em;
-}
-
 .bubble {
-  margin: 0.5vw 0 0.5vw 0;
-  width: 15vw;
-  height: auto;
-  color: white;
-  font-size: 1.5vw;
-  display: block;
+  width: 10vw;
+  height: 10vw;
+  margin: 1vw;
 }
