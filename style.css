@@ -14,6 +14,15 @@ h1 {
   margin-top: -20px;
 }
 
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.8vw;
+  text-shadow: black 0 7px 10px;
+  margin-top: 3.5vw;
+  line-height: 3.5vw;
+}
+
 .logo {
   width: auto;
   height: auto;
@@ -37,7 +46,7 @@ li {
   border-radius: 0.4vw;
 }
 
-/* prostokąt */
+/* informacje ogólne */
 
 .prostokat0 {
   background: dimgray;
@@ -88,7 +97,7 @@ li {
 .pinezka {
   width: 6vw;
   height: 6vw;
-  margin: 0.9vw 3vw 0vw 3.6vw;
+  margin: 0.9vw 3.6vw 0vw 3.9vw;
 }
 
 .prostokat2 {
@@ -135,4 +144,29 @@ li {
   width: 10vw;
   height: 10vw;
   margin: 1vw;
+}
+
+/* mail i telefon */
+
+.mail {
+  align-items: center;
+  background: dimgray;
+  width: 40vw;
+  height: 3.5vw;
+  margin: 2vw 1vw 2vw 16vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border: #00a99d 0.2vw solid;
+  border-radius: 1vw;
+}
+
+.telefon {
+  background: dimgray;
+  width: 24vw;
+  height: 3.5vw;
+  margin: 2vw 16vw 2vw 1vw;
+  padding-top: 1vw;
+  padding-top: 1vw;
+  border: #00a99d 0.2vw solid;
+  border-radius: 1vw;
 }
