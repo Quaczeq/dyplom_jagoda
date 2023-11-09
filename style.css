@@ -57,7 +57,7 @@ li {
   padding-bottom: 0.6vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 1vw;
+  box-shadow: black 0 0.1vw 1vw;
 }
 
 .tekst_prostokat0_2{
@@ -82,7 +82,7 @@ li {
   border-radius: 1vw;
   color: white;
   display: flex;
-  box-shadow: black 0vw 0.1vw 1vw;
+  box-shadow: black 0 0.1vw 1vw;
 }
 
 .tekst_protokat1_1 {
@@ -99,7 +99,7 @@ li {
 .pinezka {
   width: 6vw;
   height: 6vw;
-  margin: 0.9vw 3.6vw 0vw 3.9vw;
+  margin: 0.9vw 3.6vw 0 3.9vw;
 }
 
 .prostokat2 {
@@ -110,7 +110,7 @@ li {
   padding: 2vw 0.5vw 0.5vw;
   border: #f7931e 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 1vw;
+  box-shadow: black 0 0.1vw 1vw;
 }
 
 .tekst_prostokat2_1 {
@@ -131,7 +131,7 @@ li {
   color: white;
   font-size: 1.9vw;
   line-height: 3.2vw;
-  box-shadow: black 0vw 0.1vw 1vw;
+  box-shadow: black 0 0.1vw 1vw;
 }
 
 .tekst_prostokat {
@@ -160,7 +160,7 @@ li {
   padding-bottom: 1vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 .telefon {
@@ -171,17 +171,17 @@ li {
   padding-bottom: 1vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 .formularz {
   background: dimgray;
   width: 66vw;
   height: 40vw;
-  margin: 0vw 16vw 2vw 16vw;
+  margin: 0 16vw 2vw 16vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 /* O mnie */
@@ -194,7 +194,7 @@ li {
   position: relative;
   width: 35vw;
   height: 5vw;
-  margin: 0vw 8.5vw 2vw 16vw;
+  margin: 0 8.5vw 2vw 16vw;
 }
 
 .tekst_cien, .tekst_podstawowy {
@@ -229,7 +229,7 @@ li {
   padding: 1vw;
   border: #f7931e 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 .zdjęcie {
@@ -239,7 +239,7 @@ li {
   margin: 1.7vw 16vw 2vw 1vw;
   border: #f7931e 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 /* Opinie */
@@ -283,7 +283,7 @@ li {
   padding: 1vw;
   border: #3FA9F5 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 .opinia2 {
@@ -296,7 +296,7 @@ li {
   padding: 1vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
 
 .opinia3 {
@@ -309,5 +309,5 @@ li {
   padding: 1vw;
   border: #3FA9F5 0.2vw solid;
   border-radius: 1vw;
-  box-shadow: black 0vw 0.1vw 2vw;
+  box-shadow: black 0 0.1vw 2vw;
 }
