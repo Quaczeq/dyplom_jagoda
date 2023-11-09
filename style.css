@@ -181,5 +181,61 @@ li {
   margin: 0vw 16vw 2vw 16vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
+  box-shadow: black 0vw 0.1vw 2vw;
 }
 
+.omnie {
+  display: flex;
+}
+
+.tekst {
+  position: relative;
+  width: 35vw;
+  height: 5vw;
+  margin: 0vw 16vw 2vw 16vw;
+}
+
+.tekst_cien, .tekst_podstawowy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tekst_podstawowy {
+  z-index: 2;
+  color: white;
+  margin-top: 3.5vw;
+}
+
+.tekst_cien {
+  z-index: 1;
+  font-size: 5.7vw;
+  color: dimgray;
+}
+
+.tekst_omnie {
+  background: dimgray;
+  color: white;
+  text-align: justify;
+  font-size: 1.5vw;
+  width: 40vw;
+  margin: 9vw 1vw 2vw 0;
+  padding: 1vw;
+  border: #f7931e 0.2vw solid;
+  border-radius: 1vw;
+  box-shadow: black 0vw 0.1vw 2vw;
+}
+
+.zdjęcie {
+  background: dimgray;
+  width: 24vw;
+  height: 27vw;
+  margin: 1.7vw 16vw 2vw 1vw;
+  border: #f7931e 0.2vw solid;
+  border-radius: 1vw;
+  box-shadow: black 0vw 0.1vw 2vw;
+}
