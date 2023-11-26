@@ -106,7 +106,7 @@ li {
   background: dimgray;
   width: 32vw;
   height: 5vw;
-  margin: 2vw 16vw 2vw 1vw;
+  margin: 2vw 15vw 2vw 1vw;
   padding: 2vw 0.5vw 0.5vw;
   border: #f7931e 0.2vw solid;
   border-radius: 1vw;
@@ -124,7 +124,7 @@ li {
   background: dimgray;
   width: 29vw;
   height: 13vw;
-  margin: 2vw 16vw 2vw 1vw;
+  margin: 2vw 15vw 2vw 1vw;
   padding: 2.2vw 3vw 1.4vw 1vw;
   border: #94D8E5 0.2vw solid;
   border-radius: 1vw;
@@ -165,8 +165,8 @@ li {
 
 .telefon {
   background: dimgray;
-  width: 24vw;
-  margin: 2vw 16vw 2vw 1vw;
+  width: 23.5vw;
+  margin: 2vw 14vw 2vw 1vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
   border: #00a99d 0.2vw solid;
@@ -235,10 +235,15 @@ li {
 }
 
 .zdjęcie {
-  background: dimgray;
-  width: 24vw;
+  width: 23.5vw;
   height: 27vw;
-  margin: 1.7vw 16vw 2vw 1vw;
+  margin: 1.7vw 16.5vw 2vw 1vw;
+}
+
+.profilowe {
+  width: 21.5vw;
+  height: auto;
+  margin-top: 3vw;
   border: #f7931e 0.2vw solid;
   border-radius: 1vw;
   box-shadow: black 0 0.1vw 2vw;
@@ -288,16 +293,16 @@ li {
 }
 
 .opinia1 {
-  margin: 4vw 16vw 2vw 35vw;
+  margin: 4vw 15vw 2vw 34.6vw;
   border: #3FA9F5 0.2vw solid;
 }
 
 .opinia2 {
-  margin: 2vw 35vw 2vw 16vw;
+  margin: 2vw 34.6vw 2vw 15vw;
   border: #00a99d 0.2vw solid;
 }
 
 .opinia3 {
-  margin: 2vw 16vw 2vw 30vw;
+  margin: 2vw 15vw 2vw 29.6vw;
   border: #3FA9F5 0.2vw solid;
 }
