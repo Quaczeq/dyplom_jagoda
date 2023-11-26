@@ -104,9 +104,9 @@ li {
 
 .prostokat2 {
   background: dimgray;
-  width: 32vw;
+  width: 32.5vw;
   height: 5vw;
-  margin: 2vw 15vw 2vw 1vw;
+  margin: 2vw 14.5vw 2vw 1vw;
   padding: 2vw 0.5vw 0.5vw;
   border: #f7931e 0.2vw solid;
   border-radius: 1vw;
@@ -122,9 +122,9 @@ li {
 .prostokat3 {
   display: flex;
   background: dimgray;
-  width: 29vw;
+  width: 29.5vw;
   height: 13vw;
-  margin: 2vw 15vw 2vw 1vw;
+  margin: 2vw 14.5vw 2vw 1vw;
   padding: 2.2vw 3vw 1.4vw 1vw;
   border: #94D8E5 0.2vw solid;
   border-radius: 1vw;
@@ -165,8 +165,8 @@ li {
 
 .telefon {
   background: dimgray;
-  width: 23.5vw;
-  margin: 2vw 14vw 2vw 1vw;
+  width: 27vw;
+  margin: 2vw 14.4vw 2vw 1vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
   border: #00a99d 0.2vw solid;
@@ -176,7 +176,7 @@ li {
 
 .formularz {
   background: dimgray;
-  width: 66vw;
+  width: 68vw;
   height: 40vw;
   margin: 0 16vw 2vw 16vw;
   border: #00a99d 0.2vw solid;
@@ -202,8 +202,8 @@ li {
   top: 0;
   left: 0;
   font-size: 2.3vw;
-  width: 100%;
-  height: 100%;
+  width: 10vw;
+  height: 4vw;
   margin: 0;
   padding: 0;
 }
@@ -237,11 +237,11 @@ li {
 .zdjęcie {
   width: 23.5vw;
   height: 27vw;
-  margin: 1.7vw 16.5vw 2vw 1vw;
+  margin: 1.7vw 15.5vw 2vw 1vw;
 }
 
 .profilowe {
-  width: 21.5vw;
+  width: 23.5vw;
   height: auto;
   margin-top: 3vw;
   border: #f7931e 0.2vw solid;
