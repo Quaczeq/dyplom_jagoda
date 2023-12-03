@@ -4,6 +4,48 @@ html {
   scroll-behavior: smooth;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:1vw;
+}
+label {
+  color: white;
+  margin: 1vw 0 0 0;
+}
+textarea {
+  resize: none;
+  width: 30vw;
+  height: 10vw;
+  margin: 0.5vw 0 0 0;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #00a99d;
+  background: #2f2f2f;
+  color: white;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+}
+input {
+  width: 30vw;
+  height: 3vw;
+  margin: 0.5vw 0 0 0;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #00a99d;
+  background: #2f2f2f;
+  color: white;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+}
+
+.przycisk {
+  width: 10vw;
+  padding: 0;
+  border: 0.1vw solid #00a99d;
+  background: #2f2f2f;
+  color: white;
+  font-size: 1.2vw;
+}
 body {
   font-family: 'Lato', serif;
   font-weight: bold;
@@ -196,14 +238,20 @@ li {
 
 .formularz {
   background: dimgray;
-  width: 68vw;
-  height: 40vw;
-  margin: 0 0 2vw 16vw;
+  font-weight: lighter;
+  width: 48vw;
+  height: 41vw;
+  margin: 0 0 2vw 26vw;
   border: #00a99d 0.2vw solid;
   border-radius: 1vw;
   box-shadow: black 0 0.1vw 2vw;
 }
 
+.formularz1 {
+  display: flex;
+  flex-direction: column;
+
+}
 /* Sekcja o mnie */
 
 .omnie {

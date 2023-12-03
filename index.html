@@ -64,7 +64,21 @@
 
 </section>
 
-<div class="formularz">
+<div class="formularz tekst_prostokat">
+   <h3 style = "margin-bottom: 0" >FORMULARZ KONTAKTOWY</h3>
+
+    <form action="mailer.php" method="post" class = "formularz_1">
+        <label for="imie_nazwisko">Imię i nazwisko:</label>
+        <input type="text" id="imie_nazwisko" name="imie_nazwisko" required>
+
+        <label for="e-mail">E-mail:</label>
+        <input type="text" id="e-mail" name="e-mail" required>
+
+        <label for="zapytanie">Treść zapytania:</label>
+        <textarea id="zapytanie" name="zapytanie" rows="4" required></textarea>
+
+        <input type="submit" class = "przycisk" value="Wyślij">
+    </form>
 </div>
 
 <section class="omnie">
