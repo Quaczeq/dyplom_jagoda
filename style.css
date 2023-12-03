@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', serif;
   font-weight: bold;
   background: #2f2f2f;
+}
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+footer {
+  margin-top: 3vw;
+  background: #292929;
+  display: flex;
+  box-shadow: black 0 0.1vw 1vw;
 }
 
 h1 {
@@ -23,6 +37,12 @@ h2 {
   line-height: 3.5vw;
 }
 
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+  text-shadow: black 0 7px 10px;
+}
 .logo {
   width: auto;
   height: auto;
@@ -129,14 +149,14 @@ li {
   border: #94D8E5 0.2vw solid;
   border-radius: 1vw;
   color: white;
-  font-size: 1.9vw;
+  font-size: 1.6vw;
   line-height: 3.2vw;
   box-shadow: black 0 0.1vw 1vw;
 }
 
 .tekst_prostokat {
   color: white;
-  font-size: 1.9vw;
+  font-size: 1.6vw;
   text-align: center;
 }
 
@@ -224,7 +244,7 @@ li {
   background: dimgray;
   color: white;
   text-align: justify;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-weight: normal;
   width: 40vw;
   margin: 9vw 1vw 2vw 0;
@@ -283,7 +303,7 @@ li {
 
 .opinie {
   background: dimgray;
-  color: white;
+  color: lightcyan;
   text-align: justify;
   font-weight: normal;
   font-size: 1.2vw;
@@ -300,7 +320,7 @@ li {
 
 .opinia2 {
   width: 39vw;
-  margin: 2vw 0 2vw 15vw;
+  margin: 2vw 0 2vw 20vw;
   border: #00a99d 0.2vw solid;
 }
 
@@ -309,3 +329,28 @@ li {
   margin: 2vw 0 2vw 30vw;
   border: #f7931e 0.2vw solid;
 }
+
+.mapa {
+  width: 31vw;
+  height: 25vw;
+  margin: 2vw 0 2vw 2vw;
+  border: darkred 0.2vw solid;
+  border-radius: 1vw;
+  color: rosybrown;
+  box-shadow: black 0 0.1vw 1vw;
+}
+
+.kontakt {
+  width: 35vw;
+  height: 25vw;
+  margin: 2vw 0 2vw 16vw;
+  color: white;
+}
+
+.tekst_kontakt {
+  font-size: 1.2vw;
+  line-height: 2vw;
+  margin: 1vw 0 1vw 1vw;
+  font-weight: lighter;
+}
+
