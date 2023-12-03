@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
   font-family: 'Lato', serif;
   font-weight: bold;
   background: #2f2f2f;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.5vw;
+  margin-top: 5vw;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 5vw;
 }
 
 table {
@@ -10,15 +25,14 @@ table {
       border-collapse: collapse;
       margin-top: 20px;
       border: #00a99d 0.5vw solid;
-      border-radius: 1vw
     }
 
     th, td {
       border: 1px solid #ddd;
       padding: 8px;
-      text-align: left;
+      text-align: center;
     }
 
     th {
-      background-color: #f2f2f2;
+      background-color: #00a99d;
     }
