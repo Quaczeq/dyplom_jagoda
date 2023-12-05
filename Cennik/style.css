@@ -23,13 +23,13 @@ table {
       width: 80vw;
       margin-left: 10vw;
       border-collapse: collapse;
-      margin-top: 20px;
-      border: #00a99d 0.5vw solid;
+      margin-top: 2vw;
+      border: #00a99d 0.2vw solid;
     }
 
     th, td {
-      border: 1px solid #ddd;
-      padding: 8px;
+      border: 0.1vw solid #ddd;
+      padding: 1vw;
       text-align: center;
     }
 
