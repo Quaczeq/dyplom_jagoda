@@ -5,17 +5,18 @@ body {
   font-weight: bold;
   background: #2f2f2f;
   color: white;
+  margin: 0;
 }
 
 h2 {
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 2.6vw;
   margin-top: 5vw;
 }
 
 h3 {
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
   margin-top: 5vw;
 }
 
@@ -25,14 +26,81 @@ table {
       border-collapse: collapse;
       margin-top: 2vw;
       border: #00a99d 0.2vw solid;
-    }
+}
 
-    th, td {
+th, td {
       border: 0.1vw solid #ddd;
       padding: 1vw;
       text-align: center;
-    }
+      font-size: 1.5vw;
+}
 
-    th {
+th {
       background-color: #00a99d;
-    }
+}
+
+ul {
+  text-align: right;
+  margin: 0.4vw 15vw 0.4vw 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2vw;
+  color: darkgray;
+  list-style-type: none;
+
+  margin: 0 0.2vw 0 0.2vw;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  border-radius: 0.4vw;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+footer {
+  margin-top: 3vw;
+  background: #292929;
+  display: flex;
+  box-shadow: black 0 0.1vw 1vw;
+}
+
+.mapa {
+  width: 31vw;
+  height: 25vw;
+  margin: 2vw 0 2vw 2vw;
+  border: darkred 0.2vw solid;
+  border-radius: 1vw;
+  color: rosybrown;
+  box-shadow: black 0 0.1vw 1vw;
+}
+
+.kontakt {
+  width: 35vw;
+  height: 25vw;
+  margin: 2vw 0 2vw 16vw;
+  color: white;
+}
+
+.tekst_kontakt {
+  font-size: 1.2vw;
+  line-height: 2vw;
+  margin: 1vw 0 1vw 1vw;
+  font-weight: lighter;
+}
+
+h_footer {
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+  text-shadow: black 0 7px 10px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
