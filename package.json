@@ -1,15 +1,19 @@
 {
-  "name": " ",
+  "name": "klak-plywajmy",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "KŁAK - Strona internetowa szkoły pływania Marcin Kłak. Oferuje lekcje pływania dla dorosłych i dzieci w Warszawie.",
+  "keywords": ["pływanie", "szkoła pływania", "nauka pływania", "Warszawa", "KŁAK"],
+  "license": "MIT",
+  "author": "Jagoda Kłak",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "main.css": "^1.0.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"

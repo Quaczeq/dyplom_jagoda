@@ -4,6 +4,62 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Lato', serif;
+  font-weight: bold;
+  background: #2f2f2f;
+}
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  text-shadow: black 0 7px 10px;
+  margin-top: -20px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.8vw;
+  text-shadow: black 0 7px 10px;
+  margin-top: 3.5vw;
+  line-height: 3.5vw;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+  text-shadow: black 0 7px 10px;
+}
+
+ul {
+  text-align: right;
+  margin: 0.4vw 15vw 0.4vw 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2vw;
+  color: darkgray;
+  list-style-type: none;
+
+  margin: 0 0.2vw 0 0.2vw;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  border-radius: 0.4vw;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  margin: 0 25vw 0 25vw;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -46,66 +102,12 @@ input {
   color: white;
   font-size: 1.2vw;
 }
-body {
-  font-family: 'Lato', serif;
-  font-weight: bold;
-  background: #2f2f2f;
-}
-a {
-  text-decoration: none;
-  color: darkgrey;
-}
+
 footer {
   margin-top: 3vw;
   background: #292929;
   display: flex;
   box-shadow: black 0 0.1vw 1vw;
-}
-
-h1 {
-  text-align: center;
-  color: white;
-  font-size: 2vw;
-  text-shadow: black 0 7px 10px;
-  margin-top: -20px;
-}
-
-h2 {
-  text-align: center;
-  color: white;
-  font-size: 1.8vw;
-  text-shadow: black 0 7px 10px;
-  margin-top: 3.5vw;
-  line-height: 3.5vw;
-}
-
-h3 {
-  text-align: center;
-  color: white;
-  font-size: 1.5vw;
-  text-shadow: black 0 7px 10px;
-}
-.logo {
-  width: auto;
-  height: auto;
-  margin: 0 25vw 0 25vw;
-}
-
-ul {
-  text-align: right;
-  margin: 0.4vw 15vw 0.4vw 0;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  font-size: 1.2vw;
-  color: darkgray;
-  list-style-type: none;
-
-  margin: 0 0.2vw 0 0.2vw;
-  padding: 0.5vw 1vw 0.5vw 1vw;
-  border-radius: 0.4vw;
 }
 
 /* informacje ogólne */
